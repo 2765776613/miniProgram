@@ -1,0 +1,37 @@
+@import "./styles/iconfont.wxss";
+
+/* 
+    由于在微信小程序中不支持通配符'*' 
+    所以只能采用以下方式进行样式初始化
+*/
+
+page,
+view,
+text,
+swiper,
+swiper-item,
+image,
+button,
+navigator {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+主体颜色 通过变量来实现
+1 less中存在变量
+2 原生的css和wxss也是支持变量的
+*/
+
+page {
+    /*定义主题颜色*/
+    --themeColor: #eb4450;
+    /* 定义统一的字体大小 */
+    font-size: 28rpx;
+}
+
+image {
+    width: 100%;
+}

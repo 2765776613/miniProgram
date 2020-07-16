@@ -1,0 +1,4 @@
+<button style="margin-top:40rpx;width:70%;" type="primary" plain open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">
+    登录
+</button>
+

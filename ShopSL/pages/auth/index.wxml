@@ -1,0 +1,4 @@
+<button style="width: 70%;margin-top: 40rpx;" type="primary" plain size="default" open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">
+    获取授权
+</button>
+  
